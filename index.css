@@ -1,6 +1,6 @@
 .box {
     border-style: dashed;
-    box-shadow: darkgreen;
+    box-shadow: darkblue;
     solid-opacity: 0.8;
-    color: darkgreen;
+    color: darkblue;
 }
