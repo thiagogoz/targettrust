@@ -4,6 +4,7 @@
     solid-opacity: 0.8;
     color: darkgreen;
 }
+
 .redbox {
     border-style: solid;
     box-shadow: darkred;
@@ -15,6 +16,4 @@
     border-top-style: dashed;
     background-image: url("images/gremio_logo.png");
     background-size: 50px;
-
-
 }
