@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+<canvas width="500" height="500" class="box"></canvas>
+    <svg width="50" height="50" class="box">
+        <rect y="10" height="30" width="30" x="10" rx="10" ry="10" style="fill: red;stroke: red;stroke-width: 5"/>
+    </svg>
+
+<script>
+
+    document.querySelector('body').addEventListener('keydown', function(event) {
+
+        document.querySelector('.box').innerHTML = "O código da tecla pressionada é : <br> <span>" + event.keyCode + "</span>";
+
+    });
+
+</script>
+
+
+
+</body>
+</html>
