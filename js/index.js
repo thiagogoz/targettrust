@@ -1,3 +1,4 @@
 function salva() {
-    alert("Animal Salvo")
+    alert("Animal Salvo");
+    document.clear();
 }
