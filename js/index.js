@@ -1,4 +1,1 @@
-function salva() {
-    alert("Animal Salvo");
-    document.clear();
-}
+f4-
